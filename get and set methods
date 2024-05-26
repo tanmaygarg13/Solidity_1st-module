@@ -1,0 +1,47 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract HelloWorld {
+  /**
+   * @dev Prints Hello World string
+   */
+
+  // Here we initialize Integer type variable in solidity
+  uint number;
+  function setNumber(uint _number) public {
+    number = _number;
+  }
+
+  function getNumber() public view returns (uint256){
+    return number;
+  }
+
+  // Here we initialize Boolean type variable in solidity
+  bool num1;
+  function setBool(bool _num1) public {
+    num1 = _num1;
+  }
+
+  function getBool() public view returns (bool){
+    return num1;
+  }
+
+  // Here we initialize Bytes type variable in solidity
+  bytes1 num3;
+  function setByte(bytes1 _num3) public {
+    num3 = _num3;
+  }
+
+  function getByte() public view returns (bytes1){
+    return num3;
+  }
+
+  // Here we initialize Integer of 256 bits variable in solidity
+  uint256 num4;
+  function setUint(uint256 _num4) public {
+    num4 = _num4;
+  }
+  function getUint() public view returns (uint256){
+    return num4;
+  }
+}
