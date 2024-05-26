@@ -1,1 +1,1 @@
-# Solidity_1st-module
+# Solidity_Challenges
